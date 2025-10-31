@@ -268,6 +268,7 @@ footer{
     }
     .defilement{
         display: block;
+          float:left ;
     }
     .slide{
         display: block;
@@ -287,10 +288,12 @@ footer{
     .services{
         display: block;
          width:30px ;
+        float:left ;
     }
         .services2{
         display: block;
          width:30px ;
+              float:left ;
     }
         footer{
         width: 100%;
@@ -336,6 +339,7 @@ footer{
     }
 }
     
+
 
 
 
