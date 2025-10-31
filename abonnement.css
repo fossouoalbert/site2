@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:poppins ;
+}
+body{
+    background-color:#a8d2fc;
+    justify-content: center;
+    text-align: center;
+    scroll-behavior: smooth;
+
+}
+
+.main{
+    display: flex;
+
+}
+span{
+    background-color: #ffffff;
+    width: 200px;
+}
