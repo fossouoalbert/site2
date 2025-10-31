@@ -1,8 +1,8 @@
-
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family:poppins ;
 }
 body{
     background-color:#a8d2fc;
@@ -166,22 +166,39 @@ border-radius: 10px;
     justify-content: center;
 
 }
-.slide{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    padding: 100px;
-    gap: 0;
+.slide button h2{
+    color: #f9fbfe;
+    text-decoration: none;
 }
+
 .slide img{
-    width: 100%;
-    height: 400px;
-    margin: 20px;
+     
+    width:50%;
+    height: 100%;
+  
     object-fit: contain;
     border-radius: 10px;
     align-items: center;
+    border-color:3px #2723ff;
 }
-
+.slide button{
+    background-color: #2723ff;
+    color: #fff;
+    width: 250px;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.slide button:hover{
+    opacity: 0.7;
+    transform: translateY(5px);
+}
+.slide button a{
+    text-decoration: none;
+    list-style: none;
+}
 h2{
     color: #2723ff;
     text-decoration: underline;
@@ -236,6 +253,9 @@ footer{
     
     body{
         display: block;
+        font-size: 14px;
+        text-align: center;
+        justify-content: center;
     }
     .nav{
         width: 100%;
@@ -245,16 +265,26 @@ footer{
     }
     .slide{
         display: block;
+          font-size: 14px;
+         
     }
        .slide img{
         
         width: 100%;
     }
+    .slide video{
+        width: 100%;
+        height: 400px;
+        margin-top: 20px;
+        object-fit: contain;
+    }
     .services{
         display: block;
+         width:30px ;
     }
         .services2{
         display: block;
+         width:30px ;
     }
         footer{
         width: 100%;
@@ -300,8 +330,6 @@ footer{
     }
 }
     
-
-
 
 
 
