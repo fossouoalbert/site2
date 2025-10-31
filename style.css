@@ -181,12 +181,7 @@ border-radius: 10px;
     align-items: center;
     border-color:3px #2723ff;
 }
-    .slide video{
-        width: 100%;
-        height: 400px;
-        margin-top: 20px;
-        object-fit: contain;
-    }
+
 .slide button{
     background-color: #2723ff;
     color: #fff;
@@ -268,7 +263,7 @@ footer{
     }
     .defilement{
         display: block;
-          float:left ;
+         
     }
     .slide{
         display: block;
@@ -288,12 +283,12 @@ footer{
     .services{
         display: block;
          width:30px ;
-        float:left ;
+       
     }
         .services2{
         display: block;
          width:30px ;
-              float:left ;
+        
     }
         footer{
         width: 100%;
@@ -339,6 +334,7 @@ footer{
     }
 }
     
+
 
 
 
